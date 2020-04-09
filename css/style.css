@@ -1,3 +1,9 @@
+/* generali */
+.body {
+  position: relative;
+}
+/* fine generali */
+
 /* box immagini */
 .immagine1 {
   position: relative;
@@ -31,6 +37,9 @@
   width: 300px;
   text-align: center;
 }
+.immagine1:hover .cuore, .immagine2:hover .cuore, .immagine3:hover .cuore {
+  display: inline-block;
+}
 /* fine box immagini */
 
 /* sconti */
@@ -54,10 +63,17 @@
   position: absolute;
   font-size: 20px;
   bottom: 10px;
+  display: none;
 }
 
 .cuore:hover {
-  display:
   color: red;
 }
 /* fine cuore */
+
+/* secondo container */
+.container2 {
+  position: absolute;
+  top: 420px;
+}
+/* fine secondo container */
