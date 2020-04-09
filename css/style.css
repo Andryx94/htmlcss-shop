@@ -1,0 +1,48 @@
+/* box immagini */
+.immagine1 {
+  position: relative;
+  display: inline-block;
+  background-image: url(../img/ipad.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 372px;
+  width: 300px;
+  text-align: center;
+}
+
+.immagine2 {
+  position: relative;
+  display: inline-block;
+  background-image: url(../img/iphone.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 372px;
+  width: 300px;
+  text-align: center;
+}
+
+.immagine3 {
+  position: relative;
+  display: inline-block;
+  background-image: url(../img/beats.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 372px;
+  width: 300px;
+  text-align: center;
+}
+/* fine box immagini */
+
+/* cuore */
+.cuore {
+  z-index: 1;
+  position: absolute;
+  font-size: 20px;
+  bottom: 10px;
+}
+
+.cuore:hover {
+  display:
+  color: red;
+}
+/* fine cuore */
