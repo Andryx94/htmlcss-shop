@@ -33,6 +33,21 @@
 }
 /* fine box immagini */
 
+/* sconti */
+.sconto {
+  z-index: 1;
+  position: absolute;
+  background-color: green;
+  height: 20px;
+  width: 40px;
+  right: 0px;
+}
+
+.immagine2 .sconto {
+  background-color: red;
+}
+/* fine sconti */
+
 /* cuore */
 .cuore {
   z-index: 1;
