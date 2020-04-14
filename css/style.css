@@ -1,4 +1,9 @@
 /* generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .body {
   position: relative;
 }
@@ -68,6 +73,7 @@
 
 .cuore:hover {
   color: red;
+  cursor: pointer;
 }
 /* fine cuore */
 
