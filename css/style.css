@@ -7,6 +7,10 @@
 .body {
   position: relative;
 }
+
+.container {
+  margin-bottom: 20px;
+}
 /* fine generali */
 
 /* box immagini */
@@ -76,10 +80,3 @@
   cursor: pointer;
 }
 /* fine cuore */
-
-/* secondo container */
-.container2 {
-  position: absolute;
-  top: 400px;
-}
-/* fine secondo container */
